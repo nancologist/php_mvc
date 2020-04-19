@@ -29,3 +29,9 @@ Destructors get called when there is no other references to a particular object 
 Attention: Destructor gets called automatically when the object is not useful anymore!
 
 * Magic constant ``\__Class\__``
+___
+
+## 2.2. Magic Methods: __get(PROP_NAME) & __set(PROP_NAME, VALUE)
+* The ``__get()`` is kind of a dynamic getter for all props in the class which takes the name of the property and return the value of it if it exists.
+
+* The ``__set()`` is also kind of a dynamic Setter for all props in a class.
