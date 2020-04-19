@@ -1,5 +1,8 @@
 # PHP - Custom MVC with Brad
 
+# 0. Tips
+* ``declare(strict_types = 1);`` Activate this to use type in the language! 
+
 # Chapter 1: Course Intro & Setup
 ## 1.1. Welcome to the course
 * We will be building a __custom MVC framework__ from the ground up.
@@ -38,3 +41,8 @@ ___
 
 ## 2.3. Inheritance
 * In PHP to inherit the Constructor of the Superclass in the Childclass we can use ``parent::__construct(args...)`` , this works like ``super()`` in JS or Java.
+
+## 2.4. Static Methods and Properties
+* Static props using ``self::STATIC_PROP``
+* Static Props are independent of Objects of the class.
+* Accessing the Static Prop of a class is also with double colon: ``CLASS_NAME::STATIC_PROP``
