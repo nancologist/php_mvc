@@ -3,6 +3,8 @@
 # 0. Tips
 * ``declare(strict_types = 1);`` Activate this to use type in the language! 
 
+* PHP Best Practices: https://odan.github.io/2018/04/05/php-best-practices.html
+
 # Chapter 1: Course Intro & Setup
 ## 1.1. Welcome to the course
 * We will be building a __custom MVC framework__ from the ground up.
@@ -99,9 +101,20 @@ For this two goals we will also use ``.htaccess``
 
 ### Testing
 Now after adding ``.htaccess`` when we enter ``.com/traversymvc/`` we are actually in ``.com/traversymvc/public``
+___
 
 ### Conventions
 1. Library file names and classes should start with Uppercase!
+___
+
+### Class ``Core``
+#### Properties
+* ``currentController`` : If there is no other controllers, it's going to load by default the Controller ``Pages``. So for example we go to the ``.com/traversymvc/`` and enter nothing after that, this will goes to the Page-Controller!
+
+### Testing
+Now when we enter ``.com/traversymvc/index.php?url=hallohelmut`` we get on the page "hallohelmut".
+
+And thanks to the ``public/.htaccess`` LINE-7 now if we also enter ``.com/traversymvc/hallomorti`` we will also get the the "hallomorti" just like as we would have entered ``.com/traversymvc/index.php?url=hallomorti``.
 ___
 
 ## 3.6. Loading the Controller from the ULR
