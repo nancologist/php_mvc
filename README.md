@@ -91,6 +91,16 @@ The ``require_once`` statement is identical to ``require``, except PHP will chec
 ___
 
 ## 3.5. Bootstrap File & Core Class
+1. If we now go to ``.com/traversymvc`` we get the pae with INDEX DIRECTORIES, but we don't want that it looks like that.
+
+2. We want also to get rid of ``.com/traversymvc/public``
+
+For this two goals we will also use ``.htaccess``
+
+### Testing
+Now after adding ``.htaccess`` when we enter ``.com/traversymvc/`` we are actually in ``.com/traversymvc/public``
+___
+
 ## 3.6. Loading the Controller from the ULR
 ___
 ___
