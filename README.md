@@ -46,3 +46,24 @@ ___
 * Static props using ``self::STATIC_PROP``
 * Static Props are independent of Objects of the class.
 * Accessing the Static Prop of a class is also with double colon: ``CLASS_NAME::STATIC_PROP``
+___
+___
+___
+
+# Chapter 3: The Framework - The Core
+## 3.1. What is MVC?
+___
+
+## 3.2. Workflow Explanation - PDO
+URL Parameter Format in this project is going to be like this:
+
+``example.com/url=ControllerClasName/MethodInController/ParamOfMethod``
+___
+
+## 3.3. Creating the Folder Structure
+## 3.4. Direct Everything Through index.php
+## 3.5. Bootstrap File & Core Class
+## 3.6. Loading the Controller from the ULR
+___
+___
+___
