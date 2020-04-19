@@ -99,6 +99,9 @@ For this two goals we will also use ``.htaccess``
 
 ### Testing
 Now after adding ``.htaccess`` when we enter ``.com/traversymvc/`` we are actually in ``.com/traversymvc/public``
+
+### Conventions
+1. Library file names and classes should start with Uppercase!
 ___
 
 ## 3.6. Loading the Controller from the ULR
