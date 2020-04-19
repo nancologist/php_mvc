@@ -61,7 +61,16 @@ URL Parameter Format in this project is going to be like this:
 ___
 
 ## 3.3. Creating the Folder Structure
-## 3.4. Direct Everything Through index.php
+* After creating all these folders and files we can see them under ``localhost:8585/traversymvc/``
+
+### .htaccess to Restrict Access
+* Now we want that in this address that our ``src/`` be hidden, because it's not safe if everyone can see it. so for that :
+    1. Create a file: ``.htaccess`` in ``src/``.
+___
+
+## 3.4. Direct Everything to index.php
+___
+
 ## 3.5. Bootstrap File & Core Class
 ## 3.6. Loading the Controller from the ULR
 ___
