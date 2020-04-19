@@ -35,3 +35,6 @@ ___
 * The ``__get()`` is kind of a dynamic getter for all props in the class which takes the name of the property and return the value of it if it exists.
 
 * The ``__set()`` is also kind of a dynamic Setter for all props in a class.
+
+## 2.3. Inheritance
+* In PHP to inherit the Constructor of the Superclass in the Childclass we can use ``parent::__construct(args...)`` , this works like ``super()`` in JS or Java.
