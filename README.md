@@ -118,6 +118,11 @@ And thanks to the ``public/.htaccess`` LINE-7 now if we also enter ``.com/traver
 ___
 
 ## 3.6. Loading the Controller from the ULR
+* Goal: if someone enters for example ``.com/traversymvc/post/edit/1`` we want to get an array of ``[post, edit, 1]`` and for that we use the ``explode()``
+
+* ``rtrimt()`` : rtrim — Strip whitespace (or other characters) from the end of a string
+
+* ``filter_var()`` : allows you to filter variables in certain ways. You can filter them as string or numbers.
 ___
 ___
 ___
