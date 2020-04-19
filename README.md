@@ -69,6 +69,25 @@ ___
 ___
 
 ## 3.4. Direct Everything to index.php
+So no matter what the user in the URL puts, we want them all get redirected to ``index.php``
+
+### Mod_Rewrite
+It's a PHP module which allows us to rewrite the URL. We will use this module inside a ``.htaccess`` file. 
+
+### .htaccess
+This is a file for Apache Directives.  
+The LINE-7 makes our URLs look like this ``.com/post`` instead of ``.com/index.php?url=post`` , so it is actually the second one but it looks like prettier through this change.
+
+### Test
+Now If you type ".com/traverymvc/public/jklajfkjöa" you still goes to the .com/traversymvc/public/index.php
+
+### Important
+Since ``public/index.php`` is the entry point, what we need to do is ``require`` other files from our folder ``src/``  
+
+Some people would pack all requirements inside the index.php but we will use bootstrap.php , it would be a lot neater!
+
+### Statement ``require_once``
+The ``require_once`` statement is identical to ``require``, except PHP will check if the file has already been included, and if so, not include (require) it again.
 ___
 
 ## 3.5. Bootstrap File & Core Class
