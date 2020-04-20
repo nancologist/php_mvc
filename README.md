@@ -149,6 +149,15 @@ ___
 ## Testing 1 (Get 2nd Param in URL as Method Name)
 So now if we enter ``.com/traversymvc/pages/about`` we get ``"about"`` on browser.
 ___
+
+* ``call_user_func_array(CALLBACK_FUNC, PARAM_ARRAY)`` : Calls the callback function given by the first parameter with the parameters in param_arr.
+
+    (In our cass the CALLBACK_FUNC is an array because we should also specify the class of the callback function)
+    
+## Testing 2 (Get Method Params)
+Now if we enter ``.com/traversymvc/pages/about/23`` we get: ``Your ID is: 23``. 
+
+___
 ___
 ___
 

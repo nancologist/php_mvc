@@ -5,5 +5,7 @@ class Pages {
 
     }
 
-    public function about() {}
+    public function about($id) {
+        echo 'Your ID is: ' . $id;
+    }
 }
