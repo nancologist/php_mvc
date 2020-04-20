@@ -123,6 +123,16 @@ ___
 * ``rtrimt()`` : rtrim — Strip whitespace (or other characters) from the end of a string
 
 * ``filter_var()`` : allows you to filter variables in certain ways. You can filter them as string or numbers.
+
+* In ``Core.php`` LINE-20 : We define the path in ``fie_exists()`` as we were in the ``index.php``!
+
+* ``ucwords()`` : This capitalize the first letter in a word, and we need it in ``Core.php`` for ``$controllerPath`` because the name of Controllers in the libraray are capitalized.
+
+### Testing 1 (Getting URLs)
+If you enter ``.com/traversymvc/post/edit/1`` you get an array of post, edit, 1. (Last Commit)
+
+### Testing 2 (Load Controllers)
+If you now enter ``.com/traversymvc/`` you will get ``Pages loaded``.
 ___
 ___
 ___

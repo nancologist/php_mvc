@@ -7,12 +7,23 @@
 */
 
 class Core {
-    protected string $currentController = 'Pages';
-    protected string $currentMethod = 'index';
-    protected array $params = [];
+    protected $currentController = 'Pages';
+    protected $currentMethod = 'index';
+    protected $params = [];
 
     public function __construct() {
-        print_r($this->getUrl());
+        // print_r($this->getUrl());
+
+        $url = $this->getUrl();
+
+        $controllerPath = '../src/controllers/' . ucwords($url[0]) . '.php';
+        if (file_exists($controllerPath)) {
+            $this->currentController = ucwords($url[0]);
+            unset($url[0]);
+        }
+
+        require_once '../src/controllers/' . $this->currentController . '.php';
+        $this->currentController = new $this->currentController;
     }
 
     public function getUrl() {
