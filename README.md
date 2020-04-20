@@ -137,6 +137,18 @@ If you now enter ``.com/traversymvc/`` you will get ``Pages loaded``.
 ### Testing 3 (Load a Particular Controller)
 If you now enter ``.com/traversymvc/post`` you will get the ``Post Controller is instantiated``
 ___
+
+## 3.7. Mapping Methods & Parameters
+### Goal
+If someone enters ``.com/traversymvc/post/edit/1`` , the ``1`` should be the parameter for the method ``edit`` in the Controller class ``Post``.  
+So our goal is to map the parameter and method in the URL to their methods in the Controllers.
+___
+
+* ``method_exists(CLASS, METHOD)``
+
+## Testing 1 (Get 2nd Param in URL as Method Name)
+So now if we enter ``.com/traversymvc/pages/about`` we get ``"about"`` on browser.
+___
 ___
 ___
 
