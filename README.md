@@ -139,3 +139,16 @@ If you now enter ``.com/traversymvc/post`` you will get the ``Post Controller is
 ___
 ___
 ___
+
+# Chpater 4: The Framework - MVC Workflow
+## 4.1. Base Controller Class
+## 4.2. Loading Views
+## 4.3. Config File & Uploader
+## 4.4. Header & Footer Includes
+## 4.5. Aside - PDO Crash Course
+## 4.6. The Database Class - Part 1
+## 4.7. The Database Class - Part 2
+## 4.8. Clean Up
+___
+___
+___
