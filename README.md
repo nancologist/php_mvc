@@ -133,6 +133,9 @@ If you enter ``.com/traversymvc/post/edit/1`` you get an array of post, edit, 1.
 
 ### Testing 2 (Load Controllers)
 If you now enter ``.com/traversymvc/`` you will get ``Pages loaded``.
+
+### Testing 3 (Load a Particular Controller)
+If you now enter ``.com/traversymvc/post`` you will get the ``Post Controller is instantiated``
 ___
 ___
 ___
