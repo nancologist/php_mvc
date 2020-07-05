@@ -187,6 +187,18 @@ We want to create a config file where we put our Env. Vars.
 ___
 
 ## 4.4. Header & Footer Includes
+We want to create Header and Footer Files and then include them into the main Template.
+
+You use ``APP_ROOT`` when you want address something which is in the backend (src/) and you would use ``URL_ROOT`` when you put something in your frontend (public/) and you want set the path to it, like main.js and style.css in this episode.
+
+__TEST:__  
+* Now we see that our .com/traversymvc/ has the title "Traversy MVC" 
+
+* Test CSS: Now we see that at this route our background is red.
+
+* JS TEST : alert(123)
+___
+
 ## 4.5. Aside - PDO Crash Course
 ## 4.6. The Database Class - Part 1
 ## 4.7. The Database Class - Part 2
