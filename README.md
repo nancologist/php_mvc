@@ -175,6 +175,9 @@ __TEST:__ Now if we go to the .com/traversymvc we should get "View does not exis
 ___
 
 ## 4.2. Loading Views
+__TEST:__ Now if we go to .com/traversymvc/ we get the $data['title'] which we passed from Controller to the View in a H1-tag.
+___
+
 ## 4.3. Config File & Uploader
 ## 4.4. Header & Footer Includes
 ## 4.5. Aside - PDO Crash Course
