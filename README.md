@@ -1,5 +1,12 @@
 # PHP - Custom MVC with Brad
 
+# RUN PROJECT:
+1. ``cd /IdeaProjects/PHP/php_mvc``
+2. ``$ docker run -p "127.0.0.1:8585:80" -v ${PWD}/app:/app mattrayner/lamp:latest-1804``
+___
+___
+___
+
 # 0. Tips
 * ``declare(strict_types = 1);`` Activate this to use type in the language! 
 
