@@ -178,7 +178,14 @@ ___
 __TEST:__ Now if we go to .com/traversymvc/ we get the $data['title'] which we passed from Controller to the View in a H1-tag.
 ___
 
-## 4.3. Config File & Uploader
+## 4.3. Config File & AutoLoader
+We want to create a config file where we put our Env. Vars.
+
+* ``define(CONST_NAME, VALUE)`` : We use the define() function to declare and assign a value to a constant at runtime.
+
+* ``spl_autload_register()`` : We use this in bootstrap.php to not write rquire_once ... for every module in the library.
+___
+
 ## 4.4. Header & Footer Includes
 ## 4.5. Aside - PDO Crash Course
 ## 4.6. The Database Class - Part 1
