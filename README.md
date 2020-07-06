@@ -2,7 +2,7 @@
 
 # RUN PROJECT:
 1. ``cd /IdeaProjects/PHP/php_mvc``
-2. ``$ docker run -p "127.0.0.1:8585:80" -v ${PWD}/app:/app mattrayner/lamp:latest-1804``
+2. ``$ docker run -p "80:80" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest``
 ___
 ___
 ___
@@ -199,7 +199,35 @@ __TEST:__
 * JS TEST : alert(123)
 ___
 
-## 4.5. Aside - PDO Crash Course
+## 4.5. Aside - PDO (PHP Data Object) Crash Course
+Docs : https://www.php.net/manual/en/book.pdo.php
+
+Our next task is to create our Database library so our php app can connect to our database, to do that we are going to use PDO (PHP Data Object)
+
+PDO provides a Data Access Layer to execute Database Queries and Fetch data
+
+__Our Goal:__ We want to use PDO to do our CRUD operations, but here we want to learn about PDO a bit so:
+
+1. Go to http://127.0.0.1:8585/phpmyadmin/index.php
+2. Use the Username & Password which received by running the Docker Image of Lamp.
+3. Go to "Database"
+4. Create a Database like called "pdo_test" (Set the drop down on "Collection")
+5. In the database "pdo_test" create a table called "users"
+6. "users" has fields like id, name , email, status
+6. Create a use in the "usrers" table
+7. Now we should create something called DSN (Database Source Name)
+
+TEST: 
+* If we go to http://127.0.0.1:8585/pdo_tutorial/ we should get a blank white page and it's good, because it shows that we have no errors. (Smoke Test: use a wrong $password)
+
+Btw, PDO is very secure, so the clients can't easily do the SQL-Injections
+
+### Named Parameter is a Protection Against SQL Injection
+So in the index.php in LINE-15 the ``:status`` instead of a `` . $status`` is there to protect the code from code/sql injections.
+
+TEST2: Now if we go to that ``.com/pdo_tutorial`` we get the name of our User!
+___
+
 ## 4.6. The Database Class - Part 1
 ## 4.7. The Database Class - Part 2
 ## 4.8. Clean Up
