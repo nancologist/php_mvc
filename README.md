@@ -261,3 +261,18 @@ ___
 ___
 ___
 ___
+
+# 5. The App (Part 1 - Setup & User Authentication)
+## 5.1. Initial App & Database Setup
+## 5.2. Pages, Bootstrap & Navbar
+## 5.3. Creating The Users Controller
+## 5.4. Register & Login Form Views
+## 5.5. Form Validation
+## 5.6. User Model & Email Check
+## 5.7. User Registration
+## 5.8. Custom Flash Messaging
+## 5.9. User Login
+## 5.10. User Session Data & Logout
+___
+___
+___
