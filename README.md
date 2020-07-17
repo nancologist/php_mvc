@@ -4,11 +4,15 @@
 1. ``cd /IdeaProjects/PHP/php_mvc``
 2. ``$ docker run -p "80:80" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest``
 
-# Database Password
-http://localhost/phpmyadmin/index.php
+# Better Container with Logs! container-name: xamp
+1. ``cd IdeaProjects/PHP/php_mvc/``
+2. ``$ docker run --name xamp -p 41061:22 -p 41062:80 -d -v $(pwd)/app:/www tomsik68/xampp``
 
-* username: admin
-* pwd: 1234
+# Database Password
+http://localhost:41062/phpmyadmin/index.php
+
+* username: root
+* pwd: ``null`` (No Password)
 ___
 ___
 ___
@@ -235,6 +239,9 @@ TEST2: Now if we go to that ``.com/pdo_tutorial`` we get the name of our User!
 ___
 
 ## 4.6. The Database Class - Part 1
+TEST1: On the http://localhost:41062/www/traversymvc/ we should get this error on screen: ``SQLSTATE[HY000] [2002] Connection refused``
+___
+
 ## 4.7. The Database Class - Part 2
 ## 4.8. Clean Up
 ___
