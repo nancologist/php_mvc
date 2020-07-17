@@ -253,6 +253,8 @@ In PhpMyAdmin:
 2. Create table "posts" with cols: id, title
 3. Insert two records.
 4. Let's get them with help of our Database.php class
+
+TEST: Now on .com/www/traversymvc we get these two posts!
 ___
 
 ## 4.8. Clean Up
