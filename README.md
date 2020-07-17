@@ -3,6 +3,12 @@
 # RUN PROJECT:
 1. ``cd /IdeaProjects/PHP/php_mvc``
 2. ``$ docker run -p "80:80" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest``
+
+# Database Password
+http://localhost/phpmyadmin/index.php
+
+* username: admin
+* pwd: 1234
 ___
 ___
 ___
