@@ -1,7 +1,7 @@
 <?php
 
 // DB Params
-define('DB_HOST', '127.0.0.1:41062');
+define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', null);
 define('DB_NAME', 'tmvc');

@@ -240,6 +240,9 @@ ___
 
 ## 4.6. The Database Class - Part 1
 TEST1: On the http://localhost:41062/www/traversymvc/ we should get this error on screen: ``SQLSTATE[HY000] [2002] Connection refused``
+
+1. Now Create Database "tmvc" in phpMyAdmin.
+2. Now if you go to .com/www/traversymvc you get now errors more.
 ___
 
 ## 4.7. The Database Class - Part 2
