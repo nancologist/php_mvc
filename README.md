@@ -246,6 +246,15 @@ TEST1: On the http://localhost:41062/www/traversymvc/ we should get this error o
 ___
 
 ## 4.7. The Database Class - Part 2
+* ``prepare()`` : https://www.php.net/manual/de/pdo.prepare.php
+
+In PhpMyAdmin:  
+1. Go to the Database "tmvc"
+2. Create table "posts" with cols: id, title
+3. Insert two records.
+4. Let's get them with help of our Database.php class
+___
+
 ## 4.8. Clean Up
 ___
 ___
