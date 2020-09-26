@@ -256,7 +256,24 @@ ___
 ___
 
 # 5. The App (Part 1 - Setup & User Authentication)
+
 ## 5.1. Initial App & Database Setup
+1. Go to phpmyadmin/ (in my case ``0.0.0.0:41062/phpmyadmin/``)
+2. Create a database called "shareposts"
+3. In this DB let's create a table called "users" with 5 fields with the following columns:
+    * "id", INT, Auto Incremented, Index: Primary
+    * "name", VARCHAR, 255
+    * "email", VARCHAR, 255
+    * "password", VARCHAR, 255
+    * "created_at", DATETIME, default: CURRENT_TIME
+4. Create table "posts" with 5 columns:
+    * "id", INT, PRIMARY, AutoIncremented
+    * "user_id" , INT
+    * "title" , VARCHAR , 255
+    * "body" , TEXT
+    * created_at , DATETIME, default: CURRENT_TIME
+___
+
 ## 5.2. Pages, Bootstrap & Navbar
 ## 5.3. Creating The Users Controller
 ## 5.4. Register & Login Form Views
