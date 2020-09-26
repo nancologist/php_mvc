@@ -1,10 +1,7 @@
 # PHP - Custom MVC with Brad
 
-# RUN PROJECT:
-1. ``cd /IdeaProjects/PHP/php_mvc``
-2. ``$ docker run -p "80:80" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest``
-
-# Better Container with Logs! container-name: xamp
+# Run Project
+__Current Running Docker Container is on the following IP address: ``0.0.0.0:41062``__
 1. Check if you have already created the container "xamp": ``docker container ls -a``
 2. If it exists, then run: ``docker container start <container-name>``
 3. If not:
@@ -38,14 +35,6 @@ ___
 2. Start the server and click on "Enable"
 3. In the very root directory of mac ... in the level of Macintosh-HD you should now see a /lamp directory
 4. find /htdocs and test it with a php file!
-
-### Using Docker Image ``mattrayner/lamp`` instead of Xampp
-1. https://hub.docker.com/r/mattrayner/lamp
-2. ``$ docker pull mattrayner/lamp`` 
-3. ``$ docker run -p "127.0.0.1:8585:80" -v ${PWD}/app:/app mattrayner/lamp:latest-1804``
-
-    (Instead of http://127.0.0.1:8585 you can choose any other port.)
-___
 
 # Chapter 2: OOP
 ## 2.1. Destructor
