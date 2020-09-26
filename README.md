@@ -275,6 +275,12 @@ ___
 ___
 
 ## 5.2. Pages, Bootstrap & Navbar
+* Bootstrap v. 4.0
+* Font Awesome v. 4.7 
+
+* ATTENTION: Because of the configuration of the current used Docker Container I should have changed the ``public/.htaccess`` to fix the Routes problem like that.
+___
+
 ## 5.3. Creating The Users Controller
 ## 5.4. Register & Login Form Views
 ## 5.5. Form Validation
