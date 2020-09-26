@@ -2,6 +2,7 @@
 
 # Run Project
 __Current Running Docker Container is on the following IP address: ``0.0.0.0:41062``__
+__TEST: If you have use the following ``docker run`` command, you should find your application under following route: ``0.0.0.0:41062/www/YOUR-FOLDER-IN-"app"-DIR``
 1. Check if you have already created the container "xamp": ``docker container ls -a``
 2. If it exists, then run: ``docker container start <container-name>``
 3. If not:
