@@ -5,8 +5,11 @@
 2. ``$ docker run -p "80:80" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest``
 
 # Better Container with Logs! container-name: xamp
-1. ``cd IdeaProjects/PHP/php_mvc/``
-2. ``$ docker run --name xamp -p 41061:22 -p 41062:80 -d -v $(pwd)/app:/www tomsik68/xampp``
+1. Check if you have already created the container "xamp": ``docker container ls -a``
+2. If it exists, then run: ``docker container start <container-name>``
+3. If not:
+    1. ``cd IdeaProjects/PHP/php_mvc/``
+    2. ``$ docker run --name xamp -p 41061:22 -p 41062:80 -d -v $(pwd)/app:/www tomsik68/xampp``
 
 # Database Password
 http://localhost:41062/phpmyadmin/index.php
