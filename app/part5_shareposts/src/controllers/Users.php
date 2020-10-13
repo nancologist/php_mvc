@@ -1,6 +1,6 @@
 <?php
 
-class Users {
+class Users extends Controller {
     public function __construct() {
         
     }
@@ -9,8 +9,20 @@ class Users {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Process form
         } else {
-            // GET-req -> Load form
-            echo 'load form';
+            // Init Data
+            $data = [
+                'name' => '',
+                'email' => '',
+                'password' => '',
+                'confirm_password' => '',
+                'name_err' => '',
+                'email_err' => '',
+                'password_err' => '',
+                'confirm_password_err' => ''
+            ];
+            
+            // Load view
+            $this->view('users/register', $data);
         }
     }
 }
