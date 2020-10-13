@@ -282,6 +282,11 @@ ___
 ___
 
 ## 5.3. Creating The Users Controller
+__TEST-1 GET-Req__
+1. Enter /www/part5_shareposts/users/register
+2. You shoud see "load form"
+___
+
 ## 5.4. Register & Login Form Views
 ## 5.5. Form Validation
 ## 5.6. User Model & Email Check
