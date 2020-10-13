@@ -283,8 +283,8 @@ ___
 
 ## 5.3. Creating The Users Controller
 __TEST-1 GET-Req__
-1. Enter /www/part5_shareposts/users/register
-2. You shoud see "load form"
+1. Enter /www/part5_shareposts/users/register (or Click on "Register" in the navbar)
+2. You should see "load form"
 ___
 
 ## 5.4. Register & Login Form Views
