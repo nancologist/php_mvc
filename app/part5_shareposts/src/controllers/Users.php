@@ -2,13 +2,13 @@
 
 class Users extends Controller {
     public function __construct() {
-        
+        $this->userModel = $this->model('User');
     }
 
     public function register() {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Process form
-            die('Submitted!!!');
+            // die('Submitted!!!');
 
             // Sanitize POST data
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
@@ -27,6 +27,10 @@ class Users extends Controller {
             // Validate Email
             if (empty($data['email'])) {
                 $data['email_err'] = 'Email is required.';
+            }
+            // Check Email
+            if ($this->userModel->findUserByEmail($data['email'])) {
+                $data['email_err'] = 'Email is already taken.';
             }
 
             // Validate Name

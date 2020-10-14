@@ -1,9 +1,10 @@
 <?php
 
 // DB Params
-define('DB_HOST', 'http://0.0.0.0:41061');
+define('DB_HOST', '0.0.0.0');
+define('DB_PORT', '3306');
 define('DB_USER', 'root');
-define('DB_PASS', 'root');
+define('DB_PASS', '');
 define('DB_NAME', 'shareposts');
 
 define('APP_ROOT', dirname(dirname(__FILE__)));

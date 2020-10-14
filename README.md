@@ -2,6 +2,9 @@
 
 # Run Project
 __Current Running Docker Container is on the following IP address: ``0.0.0.0:41062``__
+
+__MySQL on Local Machine is on:__ ``0.0.0.0:3306``
+
 __TEST: If you have use the following ``docker run`` command, you should find your application under following route: ``0.0.0.0:41062/www/YOUR-FOLDER-IN-"app"-DIR``
 1. Check if you have already created the container "xamp": ``docker container ls -a``
 2. If it exists, then run: ``docker container start <container-name>``
@@ -295,6 +298,9 @@ ___
 ___
 
 ## 5.6. User Model & Email Check
+By Signing up we want to make sure that the chosen email address is not already registered. (For that we create a dummy user in database)
+___
+
 ## 5.7. User Registration
 ## 5.8. Custom Flash Messaging
 ## 5.9. User Login
