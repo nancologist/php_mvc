@@ -288,7 +288,12 @@ __TEST-1 GET-Req__
 ___
 
 ## 5.4. Register & Login Form Views
+___
+
 ## 5.5. Form Validation
+``die(MESSAGE)`` : You can use this function to send the MESSAGE to the view and terminate the script. (So it can be useful for debugging.)
+___
+
 ## 5.6. User Model & Email Check
 ## 5.7. User Registration
 ## 5.8. Custom Flash Messaging
