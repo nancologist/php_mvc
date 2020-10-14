@@ -302,6 +302,8 @@ By Signing up we want to make sure that the chosen email address is not already 
 ___
 
 ## 5.7. User Registration
+___
+
 ## 5.8. Custom Flash Messaging
 ## 5.9. User Login
 ## 5.10. User Session Data & Logout
