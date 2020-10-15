@@ -64,6 +64,7 @@ class Users extends Controller {
 
                 // Save User
                 if ($this->userModel->register($data)) {
+                    flash('register_success', 'You are successfully registered and can log in now.');
                     // Redirect after successful sign up
                     redirect('users/login');
                 } else {

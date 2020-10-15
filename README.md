@@ -305,6 +305,13 @@ ___
 ___
 
 ## 5.8. Custom Flash Messaging
+In the last episode we implemented this: _After user signs himself up, the page will be redirected to login page._ Now we want that he gets notified about successful registration for a short time after landing on login page.
+
+``session_start()`` : In order to use sessions in php we should first call this function.
+
+__TEST Flash:__ Sign up a user and then after redirection you should see the flash message.
+___
+
 ## 5.9. User Login
 ## 5.10. User Session Data & Logout
 ___
