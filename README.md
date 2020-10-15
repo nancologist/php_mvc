@@ -313,6 +313,8 @@ __TEST Flash:__ Sign up a user and then after redirection you should see the fla
 ___
 
 ## 5.9. User Login
+___
+
 ## 5.10. User Session Data & Logout
 ___
 ___
