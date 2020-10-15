@@ -319,3 +319,16 @@ ___
 ___
 ___
 ___
+
+# 6. Posts Functionality
+## 6.1. Posts Controller
+## 6.2. Posts Access Control
+## 6.3. Post Model & Display
+## 6.4. Add Post Form
+## 6.5. Inserting Posts
+## 6.6. Post Show Details Page
+## 6.7. Editing Posts
+## 6.8. Deleting Posts
+___
+___
+___
