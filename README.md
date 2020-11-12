@@ -321,7 +321,13 @@ ___
 ___
 
 # 6. Posts Functionality
+
 ## 6.1. Posts Controller
+__TEST1:__ Go to ``http://0.0.0.0:41062/www/part5_shareposts/posts`` and you should see the dummy text...
+
+At the end: 2 dummy posts are inserted in the DB.
+___
+
 ## 6.2. Posts Access Control
 ## 6.3. Post Model & Display
 ## 6.4. Add Post Form
