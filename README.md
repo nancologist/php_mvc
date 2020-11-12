@@ -333,6 +333,9 @@ __Goal:__ We want that user sees the Posts-page only if he is logged in.
 ___
 
 ## 6.3. Post Model & Display
+__Goal:__ Fetch the "posts" from the database.
+___
+
 ## 6.4. Add Post Form
 ## 6.5. Inserting Posts
 ## 6.6. Post Show Details Page
