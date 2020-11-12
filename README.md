@@ -329,6 +329,9 @@ At the end: 2 dummy posts are inserted in the DB.
 ___
 
 ## 6.2. Posts Access Control
+__Goal:__ We want that user sees the Posts-page only if he is logged in.
+___
+
 ## 6.3. Post Model & Display
 ## 6.4. Add Post Form
 ## 6.5. Inserting Posts
