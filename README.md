@@ -342,7 +342,9 @@ ___
 ## 6.5. Inserting (Add) Posts
 ___
 
-## 6.6. Post Show Details Page
+## 6.6. Post Show Details Page (Get Single Post)
+___
+
 ## 6.7. Editing Posts
 ## 6.8. Deleting Posts
 ___
