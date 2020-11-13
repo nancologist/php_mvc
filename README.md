@@ -352,3 +352,7 @@ ___
 ___
 ___
 ___
+
+# 7. Deploying the web application
+* PHP web applications are easy to deploy on SHARE-HOSTING accounts
+* __Export__ the database ``shareposts`` from phpMyAdmin to the hosting service DB...
