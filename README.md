@@ -339,7 +339,9 @@ ___
 ## 6.4. Add Post Form
 ___
 
-## 6.5. Inserting Posts
+## 6.5. Inserting (Add) Posts
+___
+
 ## 6.6. Post Show Details Page
 ## 6.7. Editing Posts
 ## 6.8. Deleting Posts

@@ -6,7 +6,7 @@
 <div class="card card-body bg-light mt-5">
     <h2>Add Post</h2>
     <p>Create a post</p>
-    <form action="<?php echo URL_ROOT; ?>/posts/add" method="post">
+    <form action="<?php echo URL_ROOT; ?>posts/add" method="post">
         <div class="form-group">
             <label for="email">Title: </label>
             <input type="text" name="title" class="form-control form-control-lg <?php echo (!empty($data['title_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['title']; ?>">
