@@ -124,4 +124,18 @@ class Posts extends Controller {
 
         $this->view('posts/edit', $data);
     }
+
+    public function delete($id) {
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            if ($this->postModel->deletePostById($id)) {
+                flash('post_message', 'Post successfully removed!');
+                redirect('posts');
+            } else {
+                // if error by executing SQL command
+                die('Something went wrong...');
+            }
+        } else {
+            redirect('posts');
+        }
+    }
 }

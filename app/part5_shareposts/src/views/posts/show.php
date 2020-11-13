@@ -13,6 +13,7 @@
     <?php echo $data['post']->body; ?>
 </p>
 
+<!-- DELETE- and EDIT-button are only available for the OWNER of the post: -->
 <?php if ($data['post']->user_id == $_SESSION['user_id']) : ?>
     <hr>
     <a href="<?php echo URL_ROOT ?>posts/edit/<?php echo $data['post']->id; ?>" class="btn btn-dark">Edit</a>
