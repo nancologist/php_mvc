@@ -346,6 +346,8 @@ ___
 ___
 
 ## 6.7. Editing Posts
+___
+
 ## 6.8. Deleting Posts
 ___
 ___
